@@ -1,0 +1,6 @@
+parameters:
+
+services:
+    Luckyseven\Bundle\LuckysevenSearchBundle\Adapter\DoctrineManagerAdapter:
+        arguments:
+            $entityManager: '@doctrine.orm.default_entity_manager'
